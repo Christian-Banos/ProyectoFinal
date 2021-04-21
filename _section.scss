@@ -1,0 +1,73 @@
+.container__articles--card{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 1500px;
+    .aticles-card{
+        height: 365px;
+        background-color: #FFFFFF;
+        margin-bottom: 5px;
+        img{
+            width: 150px;
+            height: 150px;
+            margin: 0px auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 7px;
+        }
+
+        .atricle-card-title{
+            color: rgb(66, 65, 65);
+            font-weight: bolder;    
+            font-size: 13pt;
+            span{
+                color: #FFAD00;
+            }
+            span:hover{
+                color: blue;
+                transition: all 400ms;
+            }
+        }
+        .atricle-card-title:hover{
+            color: #FFAD00;
+            transition: all 400ms;
+        }
+    }
+
+    .boton-article{
+        background-color: #FFAD00;
+        border: transparent;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 170px;
+        color: white;
+        font-weight: bolder;
+        font-size: 11pt;
+        img{
+            width: 35px;
+            height: 45px;
+            margin: -10px 5px -6px 15px ;
+        }
+    }
+    .boton-article:hover{
+        transition: all 400ms;
+        opacity: 0.8;
+    }
+}
+
+.navigation-pages{
+    margin: 10px auto;
+    .page-link{
+        color: #FFAD00;
+        background-color: #1D1F20;
+    }
+    .page-link:hover{
+        background-color: goldenrod;
+        color: white;
+        transition: all 400ms;
+    }
+}

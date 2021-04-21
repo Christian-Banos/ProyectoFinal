@@ -1,0 +1,25 @@
+.breadcrumb-contacto{
+    background-color: #53565C;
+}
+$fuente: sans-serif, helvetica;
+
+%formulario{
+    width: 60%;
+    margin: 0px auto;
+    font-family: $fuente;
+    
+}
+
+.formulario{
+    @extend %formulario;
+    margin-top: 10px;
+}
+
+.btn-outline-warning{
+    background-color: #FFAD00;
+    color: white;
+}
+
+.header__logo--contacto{
+    margin: 0px auto;
+}

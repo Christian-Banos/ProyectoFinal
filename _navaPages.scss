@@ -1,0 +1,90 @@
+.breadcrumb{
+    background-color: #35373B;
+    border-radius: 0%;
+    margin-bottom: 0;
+    .breadcrumb-item{
+        color: gold;
+        font-size: 13px;
+    }
+    .item-home{
+        a{
+            color: white;
+        }
+    }
+}
+
+// portada
+
+.seccionPortada__img{
+    background-color: #E9EAED;
+    width: 96px;
+    height: 98px;
+    border-radius: 25px;
+    margin-right: 30px;
+    margin-left: 40px;
+    img{
+        width: 80%;
+        height: 80%;
+        margin: 10px;
+    }
+}
+.seccionPortada__title{
+    width: 270px;
+    color: #E9EAED;
+    font-family: Helvetica;
+    font-size: 17pt;
+}
+
+//PORTADAS-PAGINAS
+.seccionPortada-deportes{
+    background-image: url(images/fondoDeportes.jpg);
+    background-position:center;
+    }
+
+.seccionPortada-electronica{
+    background-image: url(images/fondeElectronica.jpg);
+    background-position-y: 350px;
+    background-size: cover;
+}
+
+.seccionPortada-gaming{
+    background-image: url(images/fondoPlay.jpg);
+    background-position-x: 100px;
+    background-position-y: 370px;
+}
+
+#seccionPortada{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#seccion-deportes p{
+    width: 500px;
+    padding-top: 110px;
+    font-size: 28pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+
+
+// SUBMENU
+.container__submenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #E9EAED;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    .btn-outline-dark{
+        width: 110px;
+        margin: 5px;
+    }
+    .btn-outline-dark:hover{
+        background-color: #FFAD00;
+        transition: all 400ms;
+    }
+}
